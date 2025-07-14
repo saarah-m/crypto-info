@@ -20,7 +20,7 @@ const CoinInfo = ({ image, name, symbol }) => {
    <li className="main-list" key={symbol}>
       <img
           className="icons"
-          src={`https://www.cryptocompare.com${image}`}
+          src={image}
           alt={`Small icon for ${name} crypto coin`}
       />
       {name} <span className="tab"></span>
